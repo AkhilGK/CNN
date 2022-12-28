@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 42px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+.divright{
+    width 50%
+    height: 42px;
+    background-color: black;
+    
+}
+.mbutton{
+    height: 28px;
+    width: 28px;
+    margin-top: 5px;
+    margin-left: 19px ;
+    float: left;
+}
+.logo{
+    height: 42px;
+    width: 42px;
+    margin-left: 15px;
+    float: left;
+   
+}
+.navopt{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-top: 13px;
+    font-family:  Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    float: left;
+}
+.divleft{
+    width 50%
+    height: 42px;
+    background-color: black;
+    float: right;
+
+}
+.buttonlogin{
+    width: 60px;
+    height: 31px;
+    color: white;
+    font-family:  Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 800;
+    font-size: 400;
+    margin-right: 45px;
+    margin-top: 6px;
+   cursor: pointer;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+
+}
+.buttonlogin:hover{
+    color: white;
+    background-color: rgb(94, 92, 88);
+    fill-opacity: 0.5;
+}
+
+.searchb{
+    height: 26px;
+    width: 26px;
+    margin-top: 8px;
+    margin-right: 18px;
+    float: left;
+}
+#Audio{
+    color: white;
+    text-decoration: none;
+    margin-top: 13px;
+    
+    font-family:  Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    float: left;
+    padding-right: 15px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.headred{
+    color: #e30000;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    text-decoration: none;
+   font-weight: bold;
+    font-size: 13px;
+}
+.headblack
+{
+    color: #262626;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    text-decoration: none;
+   font-weight: bold;
+    font-size: 13px;
+}
+.headblack:hover
+{
+    color:#e30000 ;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 85px ;
+    flex-wrap: wrap;
+    
+  
+
+}
+.firstpart{
+    width: 446px; 
+    display: flex ;
+    flex-direction: column;
+    margin:13px 15px  ;
+    
+}
+.heddingmain{
+    align-content: center;
+    color: #e30000;
+    font-size: 46px;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.subhead1{
+   
+    font-size: 20px;
+    font-weight: bold;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    text-decoration: none;
+    color: #262626;
+    margin-top: 15px;
+ 
+}
+.subhead1:hover{
+    color: #e30000;
+}
+.secondpart{
+    width: 306px;
+    margin:15px 15px  ;
+    cursor: pointer;
+}
+
+.thridpart{
+    width: 306px;
+    margin:15px 15px  ;
+    cursor: pointer;
+}
+.bulletin{
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    text-decoration: none;
+    color: #262626;
+    font-size: 15px;
+    line-height: 19.99px;
+    
+} 
+.subs a{
+   display: inline-block;
+   margin-top: 10px;
+   border-top:  thin solid #d4c6c6 ;
+    border-spacing: 4px ;
+    padding-top: 8px;
+
+    
+}
+.subs a:hover{
+    color: #e30000;
+}
+.bottom{
+    width: 100%;
+    padding: 10px 51px;
+    background-color: #0c0c0c;
+    /* display: flex ; */
+    /* justify-content: space-evenly; */
+    
+}
+.searchcnn{
+    color: #e6e6e6;
+}
+.listed1{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+   
+}
+.listed1 a{
+   
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    margin: 10px 20px;
+}
+.list1{
+    
+    display: inline-block;
+    list-style: none;
+   
+}
+.listed2{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+  
+}
+.listed2 a{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    margin: 10px 20px;
+    
+}
+.list2{
+    display: inline-block;
+    list-style: none;
+}
+
+.listhead{
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.listhead:hover{
+  
+    text-decoration: underline;
+}
+.listitem{
+    font-size: 15px;
+    padding-bottom: 8px;
+   
+}
+.listitem:hover{
+    text-decoration: underline;
+}
+.searchcnn{
+  width: 1200px;
+  height: 35px;
+  margin: 60px 10px;
+  padding: 7px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+
+}
+.searchbar input{
+    width: 1000px;
+    border-color: white;
+    border-style: none;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+}
+::placeholder{
+    color: #262626;
+}
+.searchbar button{
+    margin-left: 70px;
+    background-color: white;
+    border-style: none;
+    
+
+}
+.searchbar a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #262626;
+}
+.follow{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    width:1200px ;
+    height: 42px;
+    margin: 20px;
+    
+
+}
+.image img{
+    width: 28px;
+    height: 28px;
+}
+.socialmedia a{
+    padding left: 20px ;
+    text-decoration: none;
+    font-family: Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.socialmedia button{
+    width: 60px;
+    height: 31px;
+    color: white;
+    font-family:  Helvetica, Arial, Utkal, sans-serif;
+    font-weight: 800;
+    font-size: 400;
+    padding-bottom: 6px;
+   cursor: pointer;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 8px;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px ;
+    justify-content: space-around;
+   
+}
+.foot a{
+   
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family:  Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    margin: 10px 20px;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+
+
+
